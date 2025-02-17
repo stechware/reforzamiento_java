@@ -1,0 +1,3 @@
+Un banco tiene 3 clientes que pueden hacer depósitos y extracciones. También el banco requiere que al final del día calcule la cantidad de dinero que hay depositada.
+Lo primero que hacemos es identificar las clases:
+Podemos identificar la clase Cliente y la clase Banco.
