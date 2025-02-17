@@ -1,0 +1,4 @@
+
+Crear una clase Rectángulo, con atributos base y altura. Crear también un constructor de la clase que permita 
+la inicialización de su base y altura, crear los métodos set y get de cada atributo y dos métodos para calcular el área y el perímetro.
+En la clase principal, pruebe tres rectángulos y muestre por pantalla sus áreas y perímetros.
