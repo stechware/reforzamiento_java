@@ -1,11 +1,14 @@
+package com.idat.reforzamientopc02.tienda;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tienda;
 
+
+import static com.idat.reforzamientopc02.tienda.Constantes.*;
 import java.util.Scanner;
-import static tienda.Constantes.*;
+
 
 /**
  *
