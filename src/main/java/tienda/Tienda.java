@@ -4,6 +4,8 @@
  */
 package tienda;
 
+import static tienda.Constantes.*;
+
 /**
  *
  * @author Solaris
@@ -29,12 +31,12 @@ public class Tienda {
     }
     
     public void venta(char tipoProducto, int cantidadProductos){
-        if(tipoProducto == 'A'){
+        if(tipoProducto == TIPO_PRODUCTO_A){
             this.importePagar = cantidadProductos*21.5;
             this.numeroVentasProductoA++;
             this.totalRecaudadoProductoA +=this.importePagar;
         }else{
-            if(tipoProducto == 'B'){
+            if(tipoProducto == TIPO_PRODUCTO_B){
                 this.importePagar = cantidadProductos*30;
                 this.numeroVentasProductoB++;
                 this.totalRecaudadoProductoB +=this.importePagar;
