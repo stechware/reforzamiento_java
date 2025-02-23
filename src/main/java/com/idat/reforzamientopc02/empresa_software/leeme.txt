@@ -1,0 +1,51 @@
+Una empresa desarrolladora de software ha puesto a la venta licencias de su programa de edición de video Video Edit 2.0 a los siguientes costos unitarios:
+
++-----------+--------+
+| Licencia  | Costo  |
++-----------+--------+
+| Cobre     | $ 510  |
+| Bronze    | $1500  |
+| Silver    | $3100  |
+| Gold      | $4500  |
++-----------+--------+
+
+
+Diseñe un programa que permita ingresar por cada venta el tipo de licencia y el
+
+número de licencias y muestre luego de cada venta:
+
+- El importe a pagar para la venta efectuada.
+
+- El importe total recaudado de cada tipo de licencia.
+
+- El número de licencias vendidas de cada tipo de licencia.
+
+- El número de ventas efectuadas de cada tipo de licencia.
+
+NOTA: No se requiere que se construya el formulario, pero la imagen es referencial para que analicen las variables de entrada y de salida.
+
+
+Tipo de licencia     [Gold ▼]   [Procesar]
+Número de licencias  [   2   ]   [Borrar]
+
+-------------------------------
+           Venta Actual
+-------------------------------
+Tipo de licencia..........: Gold
+Número de licencias.......: 2
+Importe a pagar..........: 9000.0
+
+-------------------------------
+        Reporte Histórico
+-------------------------------
+Número de licencias vendidas
+   Por licencias Cobre....: 4
+   Por licencias Bronze...: 6
+   Por licencias Silver...: 0
+   Por licencias Gold.....: 10
+
+Número de ventas efectuadas
+   Por licencias Cobre....: 1
+   Por licencias Bronze...: 2
+   Por licencias Silver...: 1
+   Por licencias Gold.....: 5
