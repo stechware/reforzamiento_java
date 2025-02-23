@@ -51,13 +51,13 @@ public class Tienda {
     
     public void reporte(){
     
-        System.out.println("El importe a pagar : "+this.importePagar);
-        System.out.println("Número de ventas efectuadas del producto A : " + numeroVentasProductoA);
-        System.out.println("Número de ventas efectuadas del producto B : " + numeroVentasProductoB);
-        System.out.println("Número de ventas efectuadas del producto B : " + numeroVentasProductoC);
-        System.out.println("Importe total recaudado del producto A     : " + totalRecaudadoProductoA);
-        System.out.println("Importe total recaudado del producto B     : " + totalRecaudadoProductoB);
-        System.out.println("Importe total recaudado del producto C     : " + totalRecaudadoProductoC);
+System.out.println("El importe a pagar : " + String.format("%.2f", this.importePagar));
+System.out.println("Número de ventas efectuadas del producto A : " + numeroVentasProductoA);
+System.out.println("Número de ventas efectuadas del producto B : " + numeroVentasProductoB);
+System.out.println("Número de ventas efectuadas del producto C : " + numeroVentasProductoC);
+System.out.println("Importe total recaudado del producto A     : " + String.format("%.2f", totalRecaudadoProductoA));
+System.out.println("Importe total recaudado del producto B     : " + String.format("%.2f", totalRecaudadoProductoB));
+System.out.println("Importe total recaudado del producto C     : " + String.format("%.2f", totalRecaudadoProductoC));
         
     }
     
