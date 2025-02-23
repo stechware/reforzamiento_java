@@ -24,7 +24,7 @@ public class MainTienda {
             
             System.out.print("Ingrese el Producto a Vender [A],[B] y [C] .");
             System.out.print("Si desea Salir ingrese [S] :");
-            tipoProducto =scanner.next().charAt(0);
+            tipoProducto =scanner.next().toLowerCase().charAt(0);
             
             if( tipoProducto != TIPO_PRODUCTO_A && 
                 tipoProducto != TIPO_PRODUCTO_B && 
