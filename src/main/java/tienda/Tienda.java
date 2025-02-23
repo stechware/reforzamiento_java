@@ -32,17 +32,17 @@ public class Tienda {
     
     public void venta(char tipoProducto, int cantidadProductos){
         if(tipoProducto == TIPO_PRODUCTO_A){
-            this.importePagar = cantidadProductos*21.5;
+            this.importePagar = cantidadProductos*PRECIO_PRODUCTO_A;
             this.numeroVentasProductoA++;
             this.totalRecaudadoProductoA +=this.importePagar;
         }else{
             if(tipoProducto == TIPO_PRODUCTO_B){
-                this.importePagar = cantidadProductos*30;
+                this.importePagar = cantidadProductos*PRECIO_PRODUCTO_B;
                 this.numeroVentasProductoB++;
                 this.totalRecaudadoProductoB +=this.importePagar;
             }
             else{
-                this.importePagar = cantidadProductos*30;
+                this.importePagar = cantidadProductos*PRECIO_PRODUCTO_C;
                 this.numeroVentasProductoC++;
                 this.totalRecaudadoProductoC +=this.importePagar;
             }
