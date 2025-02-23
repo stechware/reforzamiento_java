@@ -1,0 +1,23 @@
+Desarrollar las siguientes actividades aplicando lo aprendido en clases.
+
+Actividad 1
+
+Una tienda vende tres tipos de productos a los precios unitarios dados en la siguiente tabla:
+
+Producto Precio
+
+A 21.5
+
+B 30.0
+
+C 15.0
+
+Diseñe un programa que permita efectuar ventas y muestre luego de cada venta:
+
+·         El importe a pagar.
+
+·         El número de ventas efectuadas de cada tipo de producto.
+
+·         El importe total recaudado por cada tipo de producto.
+
+Declare como globales a las variables absolutamente necesarias.
