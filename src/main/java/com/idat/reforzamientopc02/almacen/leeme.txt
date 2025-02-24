@@ -1,0 +1,33 @@
+Diseñe un programa para simular el movimiento de un almacén de bolsas de cemento.
+
+Al comenzar la ejecución del programa, inicializar el stock de bolsas de cemento en 2000 bolsas y la capacidad del almacén en 3500 bolsas. Luego, el programa permitirá efectuar operaciones de depósito y de retiro, mostrando en todo momento:
+
+- El stock actual del almacén.
+
+- La capacidad libre del almacén.
+
+- El número de depósitos y de retiros efectuados.
+
+- La cantidad total de bolsas depositadas y retiradas.
+
+- La cantidad máxima de bolsas retiradas y depositadas.
+
+- La cantidad mínima de bolsas retiradas y depositadas.
+
+NOTA: No se requiere que se construya el formulario, pero la imagen es referencial para que analicen las variables de entrada y de salida.
+
+Ejemplo de Salida
+===================
+
+Stock actual del almacén  : 2046
+Capacidad libre           : 1454
+Número de depósitos efectuados : 1
+Número de retiros efectuados    : 1
+Cantidad de bolsas depositadas  : 56
+Cantidad de bolsas retiradas    : 56
+Cantidad máxima depositada      : 56
+Cantidad mínima depositada      : 56
+Cantidad máxima retirada        : 10
+Cantidad mínima retirada        : 10
+
+

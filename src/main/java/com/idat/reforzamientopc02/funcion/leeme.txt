@@ -1,0 +1,20 @@
+Diseñe un programa que imprima una tabla de valores de x e y, para valores de x en el
+
+intervalo de 0 a 10 cada 0.25, siendo: 
+
+       x^3 + 3x + 1
+y = -----------------
+        x^2 + 2
+
+NOTA: No se requiere que se construya el formulario, pero la imagen es referencial para que analicen las variables de entrada y de salida.
+
+[Procesar]
+
+x       y
+0.00    0.50
+0.25    0.86
+0.50    1.17
+0.75    1.43
+1.00    1.67
+1.25    1.88
+1.50    2.09
