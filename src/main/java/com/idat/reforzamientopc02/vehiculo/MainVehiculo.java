@@ -16,6 +16,10 @@ public class MainVehiculo {
         vehiculo.calcularAlquiler(5);
         vehiculo.mostrarInfo(5);
         
+        AutoLujo autoLujo = new AutoLujo("BMW Serie 5",256.90);
+        autoLujo.calcularAlquiler(5);
+        autoLujo.mostrarInfo(5);
+        
     }
     
 }

@@ -24,6 +24,7 @@ public class Vehiculo {
     }
     
     public void mostrarInfo(int cantidadDias){
+        System.out.println("Metodo mostrarInfo de Vehiculo");
         System.out.println("El nombre del Vehiculo : " + this.marca);
         System.out.println("El costo del Alquiler : " + (this.tarifaDiaria * cantidadDias));
     }
