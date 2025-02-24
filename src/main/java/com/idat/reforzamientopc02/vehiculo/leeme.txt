@@ -1,0 +1,30 @@
+Descripción del Problema: Sistema de Alquiler de Vehículos 
+===========================================================
+Una empresa de alquiler de vehículos necesita un software que le permita calcular el costo del alquiler 
+de sus autos según el tipo de vehículo. El sistema debe diferenciar entre autos estándar y autos de lujo,
+aplicando reglas específicas para calcular el costo del alquiler.
+
+Requisitos del Sistema
+======================
+Clase Base: Vehículo
+
+Atributos:
+marca: Nombre del fabricante del vehículo.
+tarifaDiaria: Costo base por día de alquiler en soles.
+Métodos:
+calcularAlquiler(int dias): Retorna el costo total según la tarifa diaria y la cantidad de días alquilados.
+mostrarInfo(int dias): Muestra el nombre del vehículo y el costo total del alquiler.
+
+Clase Derivada: AutoLujo
+
+Regla especial: Los autos de lujo tienen un recargo del 20% sobre el costo base del alquiler.
+Métodos sobrescritos:
+calcularAlquiler(int dias): Aplica el recargo del 20%.
+mostrarInfo(int dias): Muestra el costo final con el recargo aplicado.
+Prueba del Programa en Main
+
+Se deben crear dos vehículos:
+Un auto estándar (por ejemplo, un Toyota Corolla).
+Un auto de lujo (por ejemplo, un BMW Serie 5).
+Se debe calcular y mostrar el costo del alquiler de ambos autos por un número determinado de días.
+
