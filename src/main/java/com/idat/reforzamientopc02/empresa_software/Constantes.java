@@ -10,6 +10,10 @@ package com.idat.reforzamientopc02.empresa_software;
  */
 public class Constantes {
     
+    public static final String DESCRIPCION_LICENCIA_COBRE = "COBRE";
+    public static final String DESCRIPCION_LICENCIA_BRONZE = "BRONZE";
+    public static final String DESCRIPCION_LICENCIA_SILVER = "SILVER";
+    public static final String DESCRIPCION_LICENCIA_GOLD = "GOLD";
     public static final char LICENCIA_COBRE = 'C';
     public static final char LICENCIA_BRONZE = 'B';
     public static final char LICENCIA_SILVER = 'S';

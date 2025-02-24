@@ -72,7 +72,7 @@ public class Empresa {
         System.out.println("============================================");
         System.out.println("            Venta Actual ");
         System.out.println("============================================");
-        System.out.println("Tipo de licencia..........:" + tipoLicencia);
+        System.out.println("Tipo de licencia..........:" + getDescripcionLicencia(tipoLicencia));
         System.out.println("Número de licencias.......:" + numeroLicencias );
         System.out.println("Importe a pagar...........:" + this.importeVenta);
         reporte();
@@ -94,6 +94,32 @@ public class Empresa {
         System.out.println("    Por licencias Bronze...: " + numeroVentasLicenciaBronze);
         System.out.println("    Por licencias Silver...: " + numeroVentasLicenciaSilver);
         System.out.println("    Por licencias Gold.....: " + numeroVentasLicenciaGold);
+    }
+    
+    public String getDescripcionLicencia(char tipoLicencia){
+        
+        String descripcionLicencia = "";
+        
+        switch(tipoLicencia){
+            
+            case LICENCIA_COBRE :
+                descripcionLicencia = DESCRIPCION_LICENCIA_COBRE;
+                break;
+            case LICENCIA_BRONZE:
+                descripcionLicencia = DESCRIPCION_LICENCIA_BRONZE;
+                break;
+            case LICENCIA_SILVER:
+                descripcionLicencia = DESCRIPCION_LICENCIA_SILVER;
+                break;
+            case LICENCIA_GOLD:
+                descripcionLicencia = DESCRIPCION_LICENCIA_GOLD;
+                break;    
+            default:
+                break;
+        }
+        
+        return descripcionLicencia;
+        
     }
 
     public double getImporteVenta() {
